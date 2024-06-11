@@ -1,0 +1,66 @@
+.header-container{
+    width: 100%;
+    background-color: #4169E1;   
+}
+.head-content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+}
+.brand-images-container{
+    margin: auto  0rem;
+}
+.syenapp-logo{
+    width: 135px;
+    height:37px;
+    margin: auto 0 auto 20px; 
+}
+.country-indicator{
+    height: 28px;
+    margin: 0px 10px;
+}
+.application-title{
+    font-family: poppins;
+    font-size: 22px;
+    color: white;
+    float: right;
+    align-items: center;
+    display: flex;
+}
+.logout-btn{
+    font: bolder 15px poppins;
+    font-weight: bolder;
+    cursor: pointer;
+    align-items: center;
+    color: white;
+    background-color: #0f4ac1;
+    margin: auto 1rem auto 0;
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.logout-btn:hover {
+    background-color: #003399;
+}
+.logout-icon{
+    font-size: 22px;
+    /* border: 1px solid white; */
+    margin-left: 5px;
+ 
+}
+.atag{
+    border-style: none;
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+/* .test{
+color: #000000;
+color: #000080;
+color: #4169E1;
+color: #008080;
+color: #008000;
+color: #592da9;
+} */

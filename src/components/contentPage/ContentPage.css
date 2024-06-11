@@ -1,0 +1,5 @@
+.content-page{
+    width: 100%;
+    /* height: 90vh; */
+    overflow-y: scroll !important;
+}

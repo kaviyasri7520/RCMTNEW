@@ -1,0 +1,96 @@
+.MuiBox-root{
+  padding: 0px;
+}
+.react-tabs {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.react-tabs__tab-list {
+  border-bottom: 1px solid #aaa;
+  margin: 0 0 10px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  overflow-y: hidden;
+}
+
+.react-tabs__tab {
+  user-select: none;
+  min-width: max-content;
+  display: inline-block; 
+  border: 1px solid transparent;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 10px 12px;
+  cursor: pointer;
+  font-size: 13px;
+  color: rgb(88, 87, 87);
+}
+
+.react-tabs__tab--selected {
+  background: #fff;
+  border-bottom: 3px solid #1976d2;
+  color: #1976d2;
+  animation:focus-in-expand-fwd .3s ease-in-out 1 both
+}
+
+.react-tabs__tab--disabled {
+  color: GrayText;
+  cursor: default;
+}
+
+.react-tabs__tab:focus {
+  outline: none;
+}
+
+.react-tabs__tab:focus:after {
+  content: '';
+  position: absolute;
+  height: 5px;
+  left: -4px;
+  right: -4px;
+  bottom: -5px;
+  background-color: #1976d2 !important;
+}
+
+
+.react-tabs__tab-panel {
+  display: none;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+}
+@keyframes focus-in-expand-fwd{0%{letter-spacing:-0.1rem;transform:translateZ(-800px);filter:blur(12px);opacity:0}100%{letter-spacing:0.1rem;transform:translateZ(0);filter:blur(0);opacity:1}}
+
+
+.react-tabs__tab-list::-webkit-scrollbar {
+  height: 8px;
+}
+
+/* Track */
+.react-tabs__tab-list::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Handle */
+.react-tabs__tab-list::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 12px;
+  background: grey; 
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.5); 
+}
+.react-tabs-title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.react-tabs-title-icon{
+  font-size: 22px;
+  margin-right: 6px;
+}

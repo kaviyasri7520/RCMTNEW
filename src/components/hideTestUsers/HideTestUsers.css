@@ -1,0 +1,13 @@
+.test-user-hide-container{
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+}
+.test-user-hide-label{
+    font: bold 14px poppins;
+    margin: 0 5px;
+}
+.test-user-hide-input{
+    height: 20px ;
+    width: 20px;
+}

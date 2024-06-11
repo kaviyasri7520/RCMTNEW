@@ -1,0 +1,13 @@
+{
+    "usBaseURL":"applb.sygnup.com",
+    "indiaBaseURL":"applb.sygnup.in",
+    "documentTitle":"RCMT | PROD | ",
+    "testUsersURL":"http://192.168.1.15:5024",
+    "syenappIdTailIndia":"@sygnup.in",
+    "syenappIdTailUsa":"@sygnup.com",
+    "userInformationAuthorizedUsers": ["tgl242","tgl133","tgl159","tgl239","tgl232","tgl256"],
+    "mailContentViewAuthorizedUser": ["tgl242","tgl133","tgl159","tgl239","tgl232","tgl250","tgl307","tgl256"],
+    "apiElasticHeader":{"appapielastic":"appapielastic"},
+    "apiStoreHeader":{"appapistore":"appapistore"},
+    "apiOcrHeader":{"appapiocr":"appapiocr"}
+}

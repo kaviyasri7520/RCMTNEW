@@ -1,0 +1,29 @@
+.App {
+  font-family: arial;
+  /* font-family: poppins;
+  font-size: 12px; */
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+body{
+  margin: 0px;
+}
+.layout-container{
+  display: flex;
+  flex-direction: row;
+  /* border: 3px solid rgb(139, 206, 157); */
+  overflow-y:hidden;
+}
+.outer-layout{
+  /* border: 2px solid black; */
+  overflow-y:hidden;
+}
